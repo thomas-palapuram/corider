@@ -1,0 +1,11 @@
+body {
+  width: 375px;
+  height: 812px;
+  border-radius: 32px;
+  background: #FAF9F4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

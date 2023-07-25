@@ -1,0 +1,286 @@
+.back{
+  height:24px;
+  width:24px;
+  
+}
+.dots-vertical{
+  height:24px;
+  width:24px;
+  position: absolute;
+  right:0px;
+  top :85px;
+  padding :10px;
+}
+.from
+{
+  font-family:Inter;
+  color: grey;
+}
+.title{
+  color: #141e0d;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 0;
+  width: 275px;
+}
+.chat-screen{
+  position:fixed;
+  margin-top: 0;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  gap:16px;
+  min-height: 130px;
+  padding:16px 0;
+  width:380 px;
+}
+.title-bar{
+
+  overflow: hidden;
+  top: 0;
+  position:fixed;
+  background: #FAF9F4;
+  align-items: center;
+  
+  padding: 20px 16px 16px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid #E5E5E0;
+  display: block;
+  width: 375px;
+}
+.frame-81-1{
+  align-items: center;
+  display: flex;
+  gap:12px;
+  height:30px;
+  margin-top: 4px;
+  width :375px;
+}
+.edit
+{
+  height:20px;
+  width:20px;
+  position: absolute;
+  top     : 20px;
+  right   : 0px;
+  padding : 10px;
+}
+
+.header
+{
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+ flex-direction: row;
+ flex-shrink: 1;
+ gap: 12px;
+ justify-content: flex-start;
+ min-width: 343px;
+ width:auto;
+ margin-left:10px;
+}
+
+.text{
+  align-items: flex-start;
+  display:flex;
+  gap:16px;
+  min-width: 307px;
+}
+
+.profile
+{
+  align-items: flex-start;
+  background-color: rgba(255,255,255,1);
+  border-radius:48px;
+  display: flex;
+  height:48px;
+  justify-content: center;
+  overflow:hidden;
+  width:48px;
+  top:250px;
+}
+
+.flex-col{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: -4px;
+  min-height: 52px;
+  width:26px;
+
+}
+.rect{
+  height:26px;
+  object-fit:cover;
+  width: 26px;
+}
+
+.ride-title{
+  color:rgba(20,30,13,1);
+  font-family: Inter;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing:0;
+  line-height:normal;
+  margin-top:-1px;
+  min-height:46px;
+  width:215px;
+}
+
+.container-center-horizontal{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+ width:100%;
+}
+
+.date{
+  font-family: Inter;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 18px;
+  color:gray;
+  text-align: center;
+  gap:20px;
+}
+.reply{
+  overflow: hidden;
+  position:fixed;
+  margin-top:700px;
+  width: 400px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 12px;
+  background: #FAF9F4;
+  bottom:0px;
+}
+.frame-13{
+  position: relative;
+  display: flex;
+  padding: 11px 12px;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: #FFF;
+}
+.reply-text{
+  color: #B7B7B7;
+font-family: "Mulish";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-color: white;
+border-width: 0
+
+}
+.message-area{
+  height: 500px;
+  width:350px;
+}
+.frame-25{
+  
+  display: flex;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+.paper-clip{
+  width: 20 px;
+height: 20 px;
+}
+.l-stripe{
+ 
+  width: 116px;
+  
+}
+.r-stripe{
+  width:116px;
+ 
+}
+.others-message-box
+{display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 12px 12px 12px;
+  background: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  left:5px;
+}
+.others-message{
+ align-self: stretch;
+color: #606060;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width:310px;
+}
+.chat-screen
+{
+  align-items: center;
+  background-color: rgba(249,248,243,1);
+  border:1px none;
+  display: flex;
+  flex-direction: column;
+  height:812 px;
+  position: relative;
+  width:375 px;
+}
+.self-message-box
+{
+  display: flex;
+padding: 8px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 12px 12px 0px 12px;
+background: #1C63D5;
+width: 310px;
+margin-left:65px;
+}
+.self-message{
+  align-self: stretch;
+color: #FFF;
+font-family: Mulish;
+font-size: 14 px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.sender{
+  align-items: flex-start;
+  display:flex;
+  gap:8px;
+  min-width: 319 px;
+  margin-top:20px;
+}
+
+.profile-2{
+  align-items: flex-start;
+  background-color: rgba(255,255,255,1);
+  border-radius:48px;
+  height:24px;
+  justify-content: center;
+  overflow:hidden;
+  width:24px;
+ 
+}
+.chat-area{
+  margin-top:150px;
+  margin-bottom: 50px;
+  
+}
+
